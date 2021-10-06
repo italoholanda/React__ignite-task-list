@@ -1,8 +1,7 @@
 import { useState } from 'react'
-
 import '../styles/tasklist.scss'
-
 import { FiTrash, FiCheckSquare } from 'react-icons/fi'
+import { v4 as uuidv4 } from 'uuid'
 
 interface Task {
 	id: number;
@@ -23,7 +22,7 @@ export function TaskList() {
 		if (!newTaskTitle.trim())
 			return;
 		let tmpTask = {
-			id: Math.random(),
+			id: uuidv4(),
 			title: newTaskTitle,
 			isComplete: false
 		}
