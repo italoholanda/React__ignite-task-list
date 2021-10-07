@@ -3,6 +3,7 @@
 This pack is a challenge provided by the RocketSeat Programming School that aborts the concepts of "State" in React Applications.
 
 **Screenshot**
+<br />
 <img src="https://user-images.githubusercontent.com/76733221/136451450-feaf9929-2ae7-4d9d-a43b-d40f24205ecd.png" alt="app screenshot" />
 
 ## Objective
